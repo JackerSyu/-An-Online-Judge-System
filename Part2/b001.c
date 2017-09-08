@@ -24,3 +24,21 @@ Author ：
 陣列應用-記錄 (管理員：sagit)
 
 */
+#include <stdio.h>
+
+int main()
+{
+	int number[10],i,n;
+
+	scanf("%d",&n);
+
+	for (i=0;i<n;i++)
+		scanf("%d",&number[i]);
+
+	for (i=n-1;i>=0;i--)
+		printf("%d ",number[i]);
+
+	return 0;
+
+
+}
